@@ -4,8 +4,8 @@ This project is an unofficial PyTorch implementation of the paper using Google C
 
 All credit goes to: Tero Karras
 Timo Aila,
-[Samuli Laine],
-[Jaakko Lehtinen]
+Samuli Laine,
+Jaakko Lehtinen
 
 
 ## Description
