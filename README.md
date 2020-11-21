@@ -22,9 +22,10 @@ What has been implemented:
 - Equalised Learning Rate
 - Generator 
 - Discriminator
-
-What has been implemented but doesn't work
+- Wasserstein GP loss with extra term
 - Progressive GAN trainer
 
 What is still missing:
 - Exponential moving average of the weights
+
+With the above implemented the GAN would work. All generator and discriminator specific features (pixelnorm, minibatch std and equalised learning rate) have been implemented and work. The generator and discriminator have been tested using the provided pretrained weights. Both work. What is not working yet is the GAN trainer.
