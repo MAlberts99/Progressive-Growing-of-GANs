@@ -12,6 +12,7 @@ The paper describes a new way of training GANs which greatly increases the image
   <img src='Images/Progressive growing.png' width="600px">
 </p>
 <em>Adapted from: Progressive Growing of GANs for Improved Quality, Stability, and Variation</em>
+
 In the above image stabilisation training is illustrated in a and c. In b the new layer is faded in.
 
 ## Current State of the Project
