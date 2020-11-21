@@ -101,8 +101,6 @@ class Generator(nn.Module):
     self.blocks = nn.ModuleList()
     self.blocks.append(First_Gen_Block(latent_dim, self.calc_fmaps(0), out_dim=out_dim, normalise_latent=normalise_latent, use_wscale=use_wscale))
 
-    if out_res:
-        self.built_model()
 
 
   ### Building Functions ###
