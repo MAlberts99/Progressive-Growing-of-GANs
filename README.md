@@ -14,4 +14,17 @@ The paper describes a new way of training GANs which greatly increases the image
 <em>Adapted from: Progressive Growing of GANs for Improved Quality, Stability, and Variation</em>
 
 ## Current State of the Project
+This project is currently still under development.
 
+What has been implemented:
+- Pixelwise Normalisation
+- Minibatch Standard Deviation
+- Equalised Learning Rate
+- Generator 
+- Discriminator
+
+What has been implemented but doesn't work
+- Progressive GAN trainer
+
+What is still missing:
+- Exponential moving average of the weights
