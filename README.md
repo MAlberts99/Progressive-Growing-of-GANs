@@ -10,6 +10,7 @@ The paper describes a new way of training GANs which greatly increases the image
 
 <p align='center'>
   <img src='Images/Progressive growing.png' width="600px">
+  <em>Adapted from: Progressive Growing of GANs for Improved Quality, Stability, and Variation</em>
 </p>
 
 ## Current State of the Project
