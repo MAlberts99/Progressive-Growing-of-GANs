@@ -28,4 +28,4 @@ What has been implemented:
 What is still missing:
 - Exponential moving average of the weights
 
-With the above implemented the GAN would work. All generator and discriminator specific features (pixelnorm, minibatch std and equalised learning rate) have been implemented and work. The generator and discriminator have been tested using the provided pretrained weights. Both work. What is not working yet is the GAN trainer.
+With the above implemented the GAN would work. All generator and discriminator specific features (pixelnorm, minibatch std and equalised learning rate) have been implemented and work. The generator and discriminator have been tested using the provided pretrained weights. Both work. However, when training using the trainer the GAN diverges.
