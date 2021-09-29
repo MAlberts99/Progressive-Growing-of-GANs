@@ -28,4 +28,4 @@ What has been implemented:
 What is still missing:
 - Exponential moving average of the weights
 
-With the above implemented the GAN would work. All generator and discriminator specific features (pixelnorm, minibatch std and equalised learning rate) have been implemented and work. The generator and discriminator have been tested using the provided pretrained weights. Both work. However, when training using the trainer the GAN diverges.
+With the above implemented the GAN does work. All generator and discriminator specific features (pixelnorm, minibatch std and equalised learning rate) have been implemented and tested. The generator and discriminator have been tested using the provided pretrained weights. Both work. However, when training after fading in of the first few layers the GAN collapses. As I lack the compute (I only train using Colab) to bug fix this, the project is on hold right now.
